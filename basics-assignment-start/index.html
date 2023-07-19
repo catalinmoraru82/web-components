@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Web Components</title>
+    <script src="scripts.js"></script>
     <style>
       #info-box {
         display: none;
@@ -15,6 +16,9 @@
     <button>Show</button>
     <p id="info-box">More infos!</p>
 
+    <div style="margin-top: 20px;">
+      <em-show-info-button>More infos!</em-show-info-button>
+    </div>
     <script>
       const button = document.querySelector('button');
       const infoEl = document.querySelector('p');
